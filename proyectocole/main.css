@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+#icono{
+    border-radius: 50%;
+}
+body {
+    background-color: rgb(181, 160, 255);
+}
+#header {
+    display: flex;
+    background-color: rgb(76, 76, 76);
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    transition: .2s;
+    
+}
+#header:hover {
+    padding: 22px 10%;
+    background-color: rgb(86, 86, 86);
+    transition: .2s;
+}
+
+#user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    margin-right: auto;
+}
+#user:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    opacity: 0.9;
+    margin-right: auto;
+}
+#table {
+    border-collapse: separate; 
+    border-spacing: 10px; 
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -45px;
+    left: 60px;
+}
+.btn {
+    padding: 10px; 
+    border: 1px solid #ffffff; 
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    position: relative;
+    right: 0;
+    background-color: rgb(76, 76, 76);
+}
+.btn , a{
+    margin: 10px;
+}
+.btn:hover {
+    padding: 10px; 
+    border: 1px solid #000;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.inter-menu{
+    width: 95%;
+    height: 100px;
+    background-color: rgb(86, 86, 86);
+    position: relative;
+    margin-top: 100px;
+    opacity: 0.8;
+    align-items: center;
+    margin-left: 2.5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.expansive{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.expansive .img-i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: auto;
+    transition: .2s;
+}
+.expansive:hover{
+    border-bottom: orangered solid 4px;
+    transition: .2s;
+    cursor: pointer;
+}
+.menu-selc{
+    display: flex;
+    width: 95%;
+    height: 300px;
+    background-color: rgb(86, 86, 86);
+    opacity: 0.7;
+    position: relative;
+    margin-left: 2.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0 5rem;
+}
+.label{
+    width: 40px;
+}
+.flights-m{
+    width: 100%;
+}
+.input-flights{
+    position: relative;
+    width: 95%;
+    margin: 4px;
+    color: #000;
+}
+.date-flights{
+    color: #777777;
+}
+.select{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.hotels-m{
+    width: 100%;
+}
+.input-hotel{
+    position: relative;
+    width: 95%;
+    margin: 4px;
+    color: #000;
+}
+.date-hotel{
+    color: #777777;
+}
+.activities-m{
+    width: 100%;
+}
+.input-activity{
+    position: relative;
+    width: 95%;
+    margin: 4px;
+    color: #000;
+}
+.car-rent-m{
+    width: 100%;
+}
+.input-car{
+    position: relative;
+    width: 95%;
+    margin: 4px;
+    color: #000;
+}
+.date-car{
+    color: #777777;
+}
+.travel-hotel-m{
+    width: 100%;
+}
+.habitacion{
+    position: relative;
+}
+
+.hiden{
+    display: none;
+}
